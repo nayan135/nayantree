@@ -13,6 +13,8 @@ export async function GET(request: NextRequest) {
     <lastmod>${lastmod}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
+
+
   </url>
   <url>
     <loc>${alternativeSiteUrl}/</loc>
