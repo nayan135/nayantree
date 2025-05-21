@@ -1,14 +1,19 @@
 import { MetadataRoute } from 'next'
+import { sitemapConfig } from './sitemap-config'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://www.nayannow.xyz',
+      url: `${sitemapConfig.siteUrl}/`,
       lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 1.0,
     },
     {
-      url: 'https://nayannow.xyz',
+      url: `${sitemapConfig.alternativeSiteUrl}/`,
       lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 1.0,
     }
   ]
 }

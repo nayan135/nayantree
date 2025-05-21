@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { sitemapConfig } from './sitemap-config'
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -6,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.nayannow.xyz/sitemap.xml',
+    sitemap: `${sitemapConfig.siteUrl}/sitemap.xml`,
   }
 }
