@@ -86,7 +86,7 @@ export default function Home() {
             Night Owls
           </LinkButton>
 
-          <LinkButton href="https://www.ypstem.org" icon="YPSTEM" variant="minimal">
+          <LinkButton href="https://www.ypstem.org/about-us/meet-the-team#h.2q4d9vgr56pw" icon="YPSTEM" variant="minimal">
             Youth Pioneer in STEM (YPSTEM)
           </LinkButton>
 
