@@ -91,7 +91,7 @@ export default function Home() {
             Projects
           </LinkButton>
 
-          <LinkButton href="nayan135.xyz" icon="FileText" variant="minimal">
+          <LinkButton href="https://nayan135.xyz" icon="FileText" variant="minimal">
             Blog
           </LinkButton>
         </div>
