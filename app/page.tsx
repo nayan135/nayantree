@@ -74,7 +74,7 @@ export default function Home() {
             GitHub
           </LinkButton>
 
-          <LinkButton href="https://instagram.com/naayan135" icon="Instagram" variant="minimal">
+          <LinkButton href="https://instagram.com/nayanacharya0" icon="Instagram" variant="minimal">
             Instagram
           </LinkButton>
 
@@ -82,9 +82,6 @@ export default function Home() {
             Facebook
           </LinkButton>
 
-          <LinkButton href="https://night-owls.tech" icon="NightOwls" variant="minimal">
-            Night Owls
-          </LinkButton>
 
           <LinkButton href="https://www.ypstem.org" icon="YPSTEM" variant="minimal">
             Youth Pioneer in STEM (YPSTEM)
@@ -94,7 +91,7 @@ export default function Home() {
             Projects
           </LinkButton>
 
-          <LinkButton href="/blog" icon="FileText" variant="minimal">
+          <LinkButton href="nayan135.xyz" icon="FileText" variant="minimal">
             Blog
           </LinkButton>
         </div>
