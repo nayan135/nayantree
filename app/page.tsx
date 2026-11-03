@@ -98,6 +98,11 @@ export default function Home() {
             <span className="mx-1">❤️</span>
             by Nayan Acharya
           </p>
+          <div className="flex items-center justify-center gap-3 pt-2 text-xs text-slate-600">
+            <a href="https://nayan135.com.np" className="hover:text-slate-400 transition-colors">nayan135.com.np</a>
+            <span>·</span>
+            <a href="https://nayanacharya.info.np" className="hover:text-slate-400 transition-colors">nayanacharya.info.np</a>
+          </div>
         </footer>
       </main>
     </div>
