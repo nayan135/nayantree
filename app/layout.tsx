@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nayannow.xyz",
+    url: "https://links.nayan135.com.np",
     title: "Nayan Acharya | Links",
     description: "Developer • Innovator • Learner | Exploring tech and creativity from Nepal",
     siteName: "Nayan Acharya Links",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: "Developer • Innovator • Learner | Exploring tech and creativity from Nepal",
     images: ["/nayan-profile.jpg"],
   },
-  metadataBase: new URL("https://nayannow.xyz")
+  metadataBase: new URL("https://links.nayan135.com.np")
 }
 
 export default function RootLayout({
