@@ -40,7 +40,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center space-x-2 text-zinc-400">
                   <Clock className="h-4 w-4 text-slate-400" />
-                  <span>Open for internsh</span>
+                  <span>Open for internship</span>
                 </div>
               </div>
             </div>
@@ -88,10 +88,6 @@ export default function Home() {
 
           <LinkButton href="https://github.com/nayan135" icon="FileText" variant="minimal">
             Projects
-          </LinkButton>
-
-          <LinkButton href="https://nayan135.xyz" icon="Instagram" variant="minimal">
-            Bsadlog
           </LinkButton>
         </div>
 
