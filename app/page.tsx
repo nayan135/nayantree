@@ -86,7 +86,7 @@ export default function Home() {
             Youth Pioneer in STEM (YPSTEM)
           </LinkButton>
 
-          <LinkButton href="https://github.com/nayan135/repository" icon="FileText" variant="minimal">
+          <LinkButton href="https://github.com/nayan135/?tab=repositories" icon="FileText" variant="minimal">
             Projects
           </LinkButton>
         </div>
