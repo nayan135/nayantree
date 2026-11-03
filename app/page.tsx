@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center px-4 py-8 text-white relative overflow-hidden">
       <SpaceBackground />
-   
+
       <main className="flex flex-col items-center max-w-md w-full mx-auto space-y-8 z-10">
         {/* Header */}
         <div className="w-full relative">
@@ -40,7 +40,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center space-x-2 text-zinc-400">
                   <Clock className="h-4 w-4 text-slate-400" />
-                  <span>Open for internships</span>
+                  <span>Open for internsh</span>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="flex flex-col items-center space-y-6 w-full">
           <div className="relative w-32 h-32 overflow-hidden rounded-full border-2 border-slate-700 p-1 bg-gradient-to-r from-slate-700 to-slate-600 shadow-[0_0_25px_rgba(100,116,139,0.5)]">
             <div className="absolute inset-0 rounded-full overflow-hidden">
-              <Image src="/nayan-profile.jpg" alt="Nayan Acharya" fill className="object-cover" priority />
+              <Image src="/nayan-profile.jpg" alt="NAYAN ACHARYA" fill className="object-cover" priority />
             </div>
           </div>
 
@@ -82,7 +82,6 @@ export default function Home() {
             Facebook
           </LinkButton>
 
-
           <LinkButton href="https://www.ypstem.org" icon="YPSTEM" variant="minimal">
             Youth Pioneer in STEM (YPSTEM)
           </LinkButton>
@@ -91,8 +90,8 @@ export default function Home() {
             Projects
           </LinkButton>
 
-          <LinkButton href="https://nayan135.xyz" icon="FileText" variant="minimal">
-            Blog
+          <LinkButton href="https://nayan135.xyz" icon="Instagram" variant="minimal">
+            Bsadlog
           </LinkButton>
         </div>
 
